@@ -39,7 +39,7 @@ Step 5: Verify the Inventory
 ansible-inventory -i hosts.ini --list
 nano setup.yml
 Then paste the following content manually:
----
+
 - name: Basic Server Setup
   hosts: local
   become: yes
