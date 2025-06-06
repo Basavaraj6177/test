@@ -3,6 +3,10 @@ sakkjfkff
 ##subb
 dsdvdsvsdvsdvv
 
+
+
+
+prg 2/4 : 
 mvn archetype:generate -DgroupId=com.example -DartifactId=myapp -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
 
@@ -31,8 +35,15 @@ mvn archetype:generate -DgroupId=com.example -DartifactId=myapp -DarchetypeArtif
         </plugins>
   </build>
 
-
+prg3: 
   gradle init --type java-application
+
+
+
+
+prg 7:
+pip install ansible
+ansible --version
 echo -e "[local]\nlocalhost ansible_connection=local" > hosts.ini
 
 Step 5: Verify the Inventory
